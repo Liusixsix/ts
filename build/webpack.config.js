@@ -7,7 +7,10 @@
             filename:'main.js'
         },
         resolve:{
-            extensions:['.ts','.tsx','.js']
+            extensions:['.ts','.tsx','.js'],
+            alias:{
+                '@':'./src/'
+            }
         },
         module:{
             rules:[{
